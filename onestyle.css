@@ -1,0 +1,223 @@
+#st button{
+    background-color: silver;
+  border: 5px solid rosybrown ;
+  color: rgb(3, 3, 20);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 3px;
+  transition-duration: 0.4s;
+  margin-left: 570px;
+  margin-top: 80px;
+}
+#st:hover button{
+    background-color:rgb(114, 55, 55);
+    color: rgb(3, 3, 20);  
+}
+#st {
+    display: inline-block;
+    border-radius: 3px;
+    transition-duration: 0.4s;
+    overflow: hidden; 
+  }
+  #yo{
+    margin-top: 120px;
+    font-weight: bold;
+  }
+  #img1{
+    margin-left: 540px;
+    margin-top: 20px;
+  }
+
+  #o1,#o2,#o3,#o4,#o5{
+    width: 800px;
+    height:50px ;
+    border: 10px silver  ;
+    border-style: ridge;
+    margin-left: 250px;
+    margin-top:-60px;
+   text-align: center;
+    color:  rosybrown ;
+
+  }
+
+  #brave,#go,#reck,#super,#rush{
+    width: 300px;
+    height:40px ;
+    border: 10px silver  ;
+    border-style: ridge;
+    margin-left: 300px;
+    margin-top:100px;
+   text-align: center;
+   font-weight: bold;
+    color:  rosybrown ;
+  }
+
+  #cunning,#laugh,#worst,#mind,#care{
+    width: 300px;
+    height:40px ;
+    border: 10px silver  ;
+    border-style: ridge;
+    margin-left: 700px;
+    margin-top:-60px;
+    font-weight: bold;
+   text-align: center;
+    color:  rosybrown ;
+  }
+
+  #loyal,#leave,#nice,#in,#run{
+    width: 300px;
+    height:40px ;
+    border: 10px silver  ;
+    border-style: ridge;
+    margin-left: 300px;
+    margin-top:100px;
+    font-weight: bold;
+   text-align: center;
+    color:  rosybrown ;
+  }
+
+  #clever,#alone,#bit,#power,#quick{
+    width: 300px;
+    height:40px ;
+    border: 10px silver  ;
+    border-style: ridge;
+    margin-left: 700px;
+    margin-top:-60px;
+    font-weight: bold;
+   text-align: center;
+    color:  rosybrown ;
+  }
+
+  #bt button{
+    background-color: silver;
+    border: 5px solid rosybrown ;
+    color: rgb(3, 3, 20);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 3px;
+    transition-duration: 0.4s;
+    margin-left: 570px;
+    margin-top: 80px;
+  }
+
+  #bt:hover button{
+    background-color:rgb(114, 55, 55);
+    color: rgb(3, 3, 20);  
+}
+
+#bt1 button{
+    background-color: silver;
+    border: 5px solid rosybrown ;
+    color: rgb(3, 3, 20);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 3px;
+    transition-duration: 0.4s;
+    margin-left: 570px;
+    margin-top: 80px;
+  }
+
+  #bt1:hover button{
+    background-color:rgb(114, 55, 55);
+    color: rgb(3, 3, 20);  
+}
+
+#bt2 button{
+    background-color: silver;
+    border: 5px solid rosybrown ;
+    color: rgb(3, 3, 20);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 3px;
+    transition-duration: 0.4s;
+    margin-left: 570px;
+    margin-top: 80px;
+  }
+
+  #bt2:hover button{
+    background-color:rgb(114, 55, 55);
+    color: rgb(3, 3, 20);  
+}
+
+#bt3 button{
+    background-color: silver;
+    border: 5px solid rosybrown ;
+    color: rgb(3, 3, 20);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 3px;
+    transition-duration: 0.4s;
+    margin-left: 570px;
+    margin-top: 80px;
+  }
+
+  #bt3:hover button{
+    background-color:rgb(114, 55, 55);
+    color: rgb(3, 3, 20);  
+}
+
+#bt4 button{
+    background-color: silver;
+    border: 5px solid rosybrown ;
+    color: rgb(3, 3, 20);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 3px;
+    transition-duration: 0.4s;
+    margin-left: 570px;
+    margin-top: 80px;
+  }
+
+  #bt4:hover button{
+    background-color:rgb(114, 55, 55);
+    color: rgb(3, 3, 20);  
+}
+#bt,#bt1,#bt2,#bt3,#bt4 {
+    display: inline-block;
+    border-radius: 3px;
+    transition-duration: 0.4s;
+    overflow: hidden; 
+  }
+
+#res{
+    color:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: center;}
+
+body {
+  background-image: url('https://gifdb.com/images/high/shining-stars-in-black-night-094f7mtgq99i2y5r.gif'); /* Replace with the path to your GIF file */
+  background-size: 100% auto; /* Adjust to 'contain', '100%', 'auto', etc., based on your preference */
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Keeps the background fixed while scrolling */
+  /* Add other styles as needed */
+}
