@@ -1,53 +1,29 @@
-#doorContainer {
-  position: relative;
-  top: 60px;
-  left: 500px;
-  width: 100%;
-  height: 10%;
-  display: flex;
-  justify-content: flex-end;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>McGonagall Entrance</title>
+<link rel="stylesheet" href="onestyle.css">
+</head>
+<body>
 
-#left, #right {
-  flex: 1; /* Each door takes equal width */
-  height: 100%;
-  transition: transform 2s; /* Add transition for smooth movement */
-}
+<div id="doorContainer">
+  <div id="left"><img src="leftdoor.jpg" alt="Left Door"></div>
+  <div id="right"><img src="rightdoor.jpg" alt="Right Door"></div>
+</div>
 
-#left {
-  position: relative;
-  left: 560px;
-  border-radius: 50%;
-  transform-origin: right center; /* Initially off-screen to the left */
-}
+<div id="stuContainer">
+  <img src="A____backwards-_7946621e-b372-42de-a6b2-b5aa1dbd486a-removebg-preview.png" alt="Student">
+</div>
+<div id="mcgonagallContainer">
+  <img src="minervamcgonagall-hp-character-removebg-preview(1).png" alt="Minerva McGonagall" id="mcgonagall">
+</div>
 
-#right {
-  position: relative;
-  left: 10px;
-  border-radius: 5px;
-  transform-origin: left center; /* Initially off-screen to the right */
-}
+<audio id="aud1">
+  <source src="mcgonagall-welcomes-hogwarts-newest-students-and-toads-shorts-tuberippercom_Y0Six3rZ.mp3" type="audio/mp3">
+</audio>
 
-#mcgonagallContainer {
-  position: relative;
-  top: -590px;
-  left: 500px;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center; /* Center the McGonagall image */
-  align-items: center;
-  opacity: 0; /* Start invisible */
-  transition: opacity 2s, left 4s; /* Add transition for opacity change */
-}
-
-#stuContainer {
-  position: relative;
-  top: -220px;
-  left: 300px;
-  width: 300px;
-  height: 300px;
-  display: flex;
-  opacity: 0;
-  transition: opacity 2s;
-}
+<script src="justmin.js"></script> 
+</body>
+</html>
