@@ -4,15 +4,12 @@ document.addEventListener('DOMContentLoaded', function() {
   const mcgonagallContainer = document.getElementById('mcgonagallContainer');
   const stuContainer = document.getElementById('stuContainer');
   const aud = document.getElementById('aud1');
-  const subtitleDiv = document.getElementById('subtitle');
- 
- 
- 
+
   setTimeout(() => {
      // Reset doors to their initial positions
      doorLeft.style.transform = 'translateX(-40%)';
      doorRight.style.transform = 'translateX(8%)';
- 
+
      setTimeout(() => {
       doorLeft.style.transform = 'translateX(0)';
       doorRight.style.transform = 'translateX(0)';
@@ -21,16 +18,14 @@ document.addEventListener('DOMContentLoaded', function() {
       // After revealing McGonagall, slide to the left
       setTimeout(() => {
         mcgonagallContainer.style.left = '0';
-        setTimeout(() =>{
+        setTimeout(() => {
           aud.play();
-        },4000);
-       
+        }, 4000);
       }, 2000); // Adjust timing as needed
     }, 3000); // 3 seconds delay
- }, 3000); // 1 second delay to ensure doors are reset before moving apart
+  }, 3000); // 3 second delay to ensure doors are reset before moving apart
 });
 
-setTimeout(() =>{
+setTimeout(() => {
   stuContainer.style.opacity = '1';
-}); 
-
+}, 10000); // Delay to reveal student container
